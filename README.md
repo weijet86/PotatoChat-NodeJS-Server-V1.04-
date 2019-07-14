@@ -10,4 +10,10 @@ Instruction of how to use
 4) In VS code terminal, type in, "cd /Users/jetty/Visual\ Studio\ Code\ project/Node\ js/WebSocketServer" to set path of folder in your local disc.
 5) Then, type in, "node Wss.js" to execute the server.
 
+Instruction on how to change websocket port number of server
+1) Open Wss.js file.
+2) Go to line 184, by default, this line should have code as "const wss = new WebSocket.Server({ port: 8080 })".
+3) Simply change port number 8080 to any number you desire.
+
+
 
